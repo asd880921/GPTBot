@@ -1,0 +1,16 @@
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\DCBot.exe
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\DCBot.dll
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\DCBot.deps.json
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\DCBot.runtimeconfig.json
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\DCBot.pdb
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\Discord.Net.Commands.dll
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\Discord.Net.Core.dll
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\Discord.Net.Interactions.dll
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\Discord.Net.Rest.dll
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\Discord.Net.Webhook.dll
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\Discord.Net.WebSocket.dll
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\Newtonsoft.Json.dll
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\System.Interactive.Async.dll
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\System.Linq.Async.dll
+C:\Users\asd88\Desktop\GitHub\GPTBot\out\System.Reactive.dll
