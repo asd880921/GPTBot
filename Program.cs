@@ -12,8 +12,8 @@ namespace DCBot
     {
         public static void Main(string[] args)
         {
-            getEnv();
-            //getRenderValues();
+            //getEnv();
+            getRenderValues();
             new Bot().MainAsync().GetAwaiter().GetResult();
         }
 
