@@ -15,3 +15,6 @@ WORKDIR /app/out
 
 # 設定 ENTRYPOINT 指令
 ENTRYPOINT ["dotnet", "DCBot.dll"]
+
+# 禁用容器的自動重新啟動
+STOPSIGNAL SIGINT
