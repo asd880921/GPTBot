@@ -20,7 +20,7 @@ namespace DCBot
         public static void getRenderValues()
         {
             BaseValues.DC_Token = System.Environment.GetEnvironmentVariable("DISCORD_TOKEN");
-            BaseValues.GPT3_Token =  System.Environment.GetEnvironmentVariable("GPT3_Token");
+            BaseValues.GPT3_Token =  System.Environment.GetEnvironmentVariable("GPT3_TOKEN");
         }
 
         public static void getEnv()

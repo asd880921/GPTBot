@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asd88\\Desktop\\DCBot\\DCBot\\DCBot.csproj": {}
+    "C:\\Users\\asd88\\Desktop\\GitHub\\GPTBot\\DCBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asd88\\Desktop\\DCBot\\DCBot\\DCBot.csproj": {
+    "C:\\Users\\asd88\\Desktop\\GitHub\\GPTBot\\DCBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asd88\\Desktop\\DCBot\\DCBot\\DCBot.csproj",
+        "projectUniqueName": "C:\\Users\\asd88\\Desktop\\GitHub\\GPTBot\\DCBot.csproj",
         "projectName": "DCBot",
-        "projectPath": "C:\\Users\\asd88\\Desktop\\DCBot\\DCBot\\DCBot.csproj",
+        "projectPath": "C:\\Users\\asd88\\Desktop\\GitHub\\GPTBot\\DCBot.csproj",
         "packagesPath": "C:\\Users\\asd88\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asd88\\Desktop\\DCBot\\DCBot\\obj\\",
+        "outputPath": "C:\\Users\\asd88\\Desktop\\GitHub\\GPTBot\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asd88\\AppData\\Roaming\\NuGet\\NuGet.Config"

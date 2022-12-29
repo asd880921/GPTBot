@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "phyFSzO5ek3JySWj1lQondtsEm1fEWMDwFV3u2iySuIVks9k5NKhTd3v/01z/5rnnw1wPjMTa8ohBWbQgKsYDg==",
+  "dgSpecHash": "bdV+eWP8QpDwZPhACPY2go1sWuUd81BCtwQVJALx8aO7gosQND6641lSS4t1kceQqEF+ViCsIg4I1vaykGmMnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asd88\\Desktop\\DCBot\\DCBot\\DCBot.csproj",
+  "projectFilePath": "C:\\Users\\asd88\\Desktop\\GitHub\\GPTBot\\DCBot.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asd88\\.nuget\\packages\\discord.net\\3.9.0\\discord.net.3.9.0.nupkg.sha512",
     "C:\\Users\\asd88\\.nuget\\packages\\discord.net.commands\\3.9.0\\discord.net.commands.3.9.0.nupkg.sha512",
