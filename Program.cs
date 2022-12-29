@@ -10,11 +10,18 @@ namespace DCBot
 {
     public class Program
     {
+        public static Bot bot = null;
         public static void Main(string[] args)
         {
             //getEnv();
             getRenderValues();
-            new Bot().MainAsync().GetAwaiter().GetResult();
+
+            //防止被重複啟用
+            if(bot == null) 
+            {
+                bot = new Bot();
+                bot.MainAsync().GetAwaiter().GetResult();
+            }
         }
 
         public static void getRenderValues()
