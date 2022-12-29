@@ -12,8 +12,6 @@ namespace DCBot
     {
         private DiscordSocketClient _client;
         private CommandService _commands;
-
-        private string token = "MTA1NzI3MjI4OTE0Nzc0ODM5Mg.GIqkFO.87gpUoHKBzPnSevOSBI9E3ZWsWtIu3K3YNsD-s";
         
         public async Task MainAsync()
         {
@@ -30,7 +28,7 @@ namespace DCBot
         
             //註冊Bot Cmd指令
             await _commands.AddModulesAsync(typeof(BotCommands).Assembly, null);
-            await _client.LoginAsync(TokenType.Bot, token); //YOUR_BOT_TOKEN
+            await _client.LoginAsync(TokenType.Bot, BaseValues.DC_Token); //YOUR_BOT_TOKEN
             await _client.StartAsync();
             await Task.Delay(-1);
         }

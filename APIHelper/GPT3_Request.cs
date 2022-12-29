@@ -17,7 +17,6 @@ namespace DCBot
             {
             // 設定 API 的終點 URL
             string apiUrl = "https://api.openai.com/v1/completions";
-            string apiKey = "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";
 
             // 設定 API 的請求參數  
             var requestParams = new
@@ -37,7 +36,7 @@ namespace DCBot
             };
 
             // 設定 API Key
-            request.Headers.Add("Authorization","Bearer " + apiKey);
+            request.Headers.Add("Authorization","Bearer " + BaseValues.GPT3_Token);
 
             // 建立 HTTP 客戶端
             var client = new HttpClient();
