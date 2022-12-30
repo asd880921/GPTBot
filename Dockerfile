@@ -14,5 +14,5 @@ RUN dotnet publish -c Release -o out
 WORKDIR /app/out
 
 # 設定 Docker 容器
-ENTRYPOINT ["dotnet", "DCBot.dll"] && tail -f /dev/null
+ENTRYPOINT ["dotnet", "DCBot.dll"]
 
