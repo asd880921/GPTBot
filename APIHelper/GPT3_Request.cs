@@ -24,7 +24,11 @@ namespace DCBot
                 model = "text-davinci-003",
                 prompt = postText,
                 max_tokens = 256,
-                temperature = 0
+                temperature = 0.7,
+                top_p = 1,
+                frequency_penalty = 0,
+                fresence_penalty = 0,
+                best_of=1
             };
 
             // 建立 HTTP 請求
