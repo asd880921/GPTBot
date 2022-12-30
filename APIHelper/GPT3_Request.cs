@@ -23,7 +23,7 @@ namespace DCBot
             {
                 model = "text-davinci-003",
                 prompt = postText,
-                max_tokens = 500,
+                max_tokens = 256,
                 temperature = 0
             };
 

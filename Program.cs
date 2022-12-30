@@ -10,18 +10,11 @@ namespace DCBot
 {
     public class Program
     {
-        public static Bot bot = null;
         public static void Main(string[] args)
         {
-            //getEnv();
             getRenderValues();
-
-            //防止被重複啟用
-            if(bot == null) 
-            {
-                bot = new Bot();
-                bot.MainAsync().GetAwaiter().GetResult();
-            }
+            getEnv();
+            new Bot().MainAsync().GetAwaiter().GetResult(); 
         }
 
         public static void getRenderValues()
@@ -32,19 +25,25 @@ namespace DCBot
 
         public static void getEnv()
         {
-            string[] lines = System.IO.File.ReadAllLines(".env");
-            foreach (string line in lines)
+            try
             {
-                if (line.StartsWith("DISCORD_TOKEN="))
+                string[] lines = System.IO.File.ReadAllLines(".env");
+                foreach (string line in lines)
                 {
-                    BaseValues.DC_Token = line.Substring("DISCORD_TOKEN=".Length);
-                }
-                else if (line.StartsWith("GPT3_TOKEN="))
-                {
-                    BaseValues.GPT3_Token = line.Substring("GPT3_TOKEN=".Length);
+                    if (line.StartsWith("DISCORD_TOKEN="))
+                    {
+                        BaseValues.DC_Token = line.Substring("DISCORD_TOKEN=".Length);
+                    }
+                    else if (line.StartsWith("GPT3_TOKEN="))
+                    {
+                        BaseValues.GPT3_Token = line.Substring("GPT3_TOKEN=".Length);
+                    }
                 }
             }
-
+            catch(Exception ex)
+            {
+                return;
+            }
         }
     }
 }
