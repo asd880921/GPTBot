@@ -21,7 +21,7 @@ namespace DCBot
             // 設定 API 的請求參數  
             var requestParams = new
             {
-                model = "text-davinci-003",
+                model = "text-curie-001",
                 prompt = postText,
                 max_tokens = 1000,
                 temperature = 0
